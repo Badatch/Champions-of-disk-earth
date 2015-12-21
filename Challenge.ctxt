@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=cType\ nme\ sReq\ rew
+comment0.target=Challenge(ChallengeType,\ java.lang.String,\ int,\ int)
+comment0.text=\r\n\ Constructor\ for\ the\ Challenge\ class.\r\n\ @param\ cType\ -\ The\ challenge\ type\ (Fight,\ Mystery,\ Magic)\r\n\ @param\ nme\ \=\ The\ name\ of\ the\ enemy\r\n\ @param\ sReq\ -\ The\ skill\ required\ for\ the\ challenge\ to\ be\ met\r\n\ @param\ rew\ -\ The\ reward\ for\ beating\ the\ challenge\ \r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ Returns\ the\ challenge\ enemy\ name\r\n\ @return\ the\ challenge\ enemy\ name\r\n
+comment2.params=
+comment2.target=int\ getSkillRequired()
+comment2.text=\r\n\ Returns\ the\ skill\ level\ for\ the\ challenge\r\n\ @return\ the\ skill\ level\ for\ the\ challenge\r\n
+comment3.params=
+comment3.target=int\ getReward()
+comment3.text=\r\n\ Returns\ the\ reward\ for\ beating\ this\ challenge\r\n\ @return\ the\ reward\ for\ beating\ this\ challenge\r\n
+comment4.params=
+comment4.target=java.lang.String\ getChallType()
+comment4.text=\r\n\ Returns\ the\ challenge\ type\ as\ a\ String\r\n\ @return\ the\ challenge\ type\ as\ a\ String\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ all\ information\ about\ this\ challenge\r\n\ @return\ all\ information\ about\ this\ challenge\r\n
+numComments=6

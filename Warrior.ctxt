@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=name\ hFee\ wpn
+comment0.target=Warrior(java.lang.String,\ int,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Warrior\r\n\ @param\ name\ -\ The\ name\ of\ the\ Warrior\r\n\ @param\ hFee\ -\ The\ hire\ fee\ of\ the\ Warrior\r\n\ @param\ wpn\ -\ The\ weapon\ the\ Warrior\ uses\r\n
+comment1.params=
+comment1.target=java.lang.String\ getWeapon()
+comment1.text=\r\n\ Returns\ the\ Warrior's\ weapon\ as\ a\ String\r\n\ @return\ the\ Warrior's\ weapon\ as\ a\ String\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Returns\ all\ information\ unique\ to\ the\ Warrior\ class\r\n\ @return\ all\ information\ unique\ to\ the\ Warrior\ class\r\n
+numComments=3

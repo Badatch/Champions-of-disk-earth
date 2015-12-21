@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=name\ sLvl\ necro\ spec
+comment0.target=Wizard(java.lang.String,\ int,\ boolean,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ creating\ a\ Wizard\ class\ which\ extend\ champion\r\n\ @param\ name\ -\ The\ name\ of\ the\ wizard\ champion\r\n\ @param\ sLvl\ -\ The\ skill\ level\ of\ this\ champion\r\n\ @param\ necro\ -\ True\ or\ false\ if\ this\ wizard\ is\ a\ necromancer\ or\ not\r\n\ @param\ spec\ -\ The\ name\ of\ the\ spell\ that\ the\ Wizard\ specialises\ in\r\n
+comment1.params=
+comment1.target=boolean\ getNecromancer()
+comment1.text=\r\n\ Returns\ true\ or\ false\ if\ the\ wizard\ is\ a\ necromancer\ or\ not\r\n\ @return\ true\ or\ false\ if\ the\ wizard\ is\ a\ necromancer\ or\ not\r\n
+comment2.params=
+comment2.target=java.lang.String\ getSpeciality()
+comment2.text=\r\n\ Returns\ the\ Wizard's\ spell\ speciality\r\n\ @return\ the\ Wizard's\ spell\ speciality\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Returns\ all\ information\ unique\ to\ the\ Wizard\ class\r\n\ @return\ all\ information\ unique\ to\ the\ Wizard\ class\r\n
+numComments=4

@@ -1,0 +1,109 @@
+
+/**
+ * Write a description of class Tester here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Tester
+{
+    private static Player gp = new Player("Olenka");
+    private static Player gp22;
+   
+    public static void main(String[] args)
+    {
+//         System.out.println("Display Challenges & Champions for Hire");
+//         System.out.println(gp.getAllChallenges());
+//         System.out.println("*********************************");
+//         System.out.println(gp.getAllChampionsForHire());
+//         System.out.println("*********************************");
+//         System.out.println(gp.toString());
+//         System.out.println("*********************************");
+
+        // Hire champions
+        System.out.println("Hire Champions");
+        System.out.println(gp.hireChampion("Xenon"));
+        System.out.println(gp.hireChampion("Flimsi"));
+        System.out.println(gp.hireChampion("Ganfrank"));
+        System.out.println(gp.hireChampion("Gimpi")); // No such Champion
+        System.out.println("\n******Are Xenon,Flimsi & Ganfrank Hired ??");
+        System.out.println(gp.toString());
+        System.out.println("*********************************");
+        System.out.println("\n*****Xenon,Flimsi & Ganfrank should not be on the list");
+        System.out.println(gp.getAllChampionsForHire());
+        System.out.println("*********************************");
+        
+        //Meet challenges
+        System.out.println("\n*****Meet Challenges**********");
+        System.out.println("\n*****Treasury should be 50");
+        System.out.println("\n*****Challenge won - treasury 150");
+        System.out.println(gp.meetChallenge(1));
+        System.out.println("\n*****Challenge won - treasury 270 ");
+        System.out.println(gp.meetChallenge(2));
+        System.out.println("\n*****Challenge lost on skill level");
+        System.out.println("\n*****Treasury will be 180 - Flimsi not dead");
+        System.out.println("Treasury = " + gp.getMoney());
+        System.out.println(gp.meetChallenge(5));
+        System.out.println("\n*****Challenge lost no champion");
+        System.out.println("\n*****Treasury will be 135 - Flimsi dead");
+        System.out.println(gp.meetChallenge(6));
+        
+        //Hire champion - but no  money
+        System.out.println("\n*****Hire Neon - no money. Neon not hired");
+        System.out.println(gp.hireChampion("Neon"));
+        System.out.println(gp.toString());
+        System.out.println("*********************************"); 
+        
+        //Discharge Champion and hire more
+        System.out.println("\n*****Discharge Xenon & hire more");
+        gp.dischargeChampion("Xenon");
+        System.out.println("\n*****Treasury will be 385");
+        System.out.println(gp.toString());
+        System.out.println("*********************************");         
+        System.out.println("*********************************");
+        System.out.println("\n*****hire Neon - Neon hired");
+        System.out.println("\n*****Treasury will be 85");
+        System.out.println(gp.hireChampion("Neon"));
+        System.out.println(gp.toString());
+        System.out.println("*********************************");
+        
+        System.out.println("\n*****Flimsi dead - can't discharge");
+        gp.dischargeChampion("Flimsi");
+        System.out.println("No change to treasury - should be 85 is : " + gp.getMoney());
+        
+        System.out.println("\n*****Can't be hired as already in army");
+        System.out.println(gp.hireChampion("Flimsi"));  //dead
+        System.out.println(gp.hireChampion("Neon")); // available
+        System.out.println(gp.hireChampion("Ganfrank"));// resting
+        
+        //restore champion
+        System.out.println("Restore Ganfrank & meet challenge");
+        gp.restoreChampion("Ganfrank");
+        System.out.println(gp.meetChallenge(1));
+        
+        System.out.println("\n*****Discharge resting Ganfrank - Treasury ");
+        gp.dischargeChampion("Ganfrank");
+        
+          // Going bust
+        System.out.println("Going Bust");
+        System.out.println(gp.meetChallenge(6));
+        System.out.println(gp.meetChallenge(4));
+        System.out.println(gp.meetChallenge(4));
+        System.out.println(gp.toString());
+        
+        //View champions
+        System.out.println("View Champion");
+        System.out.println(gp.getChampion("Argon"));
+        System.out.println(gp.getChampion("Flimsi"));
+        System.out.println(gp.getChampion("Gimpi"));
+        
+//         // file write/read
+//         System.out.println("***********File write/read ************");
+//         gp.saveGame("xxx");
+//         Player gp22 = gp.restoreGame("xxx");
+//         System.out.println(gp22.toString());
+
+    }
+    
+    
+}

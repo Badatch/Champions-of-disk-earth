@@ -1,0 +1,9 @@
+wizard,Ganfrank,7,true,transmutation
+wizard,Rudolf,6,false,invisibility
+warrior,Elblond,200,sword
+warrior,Flimsi,300,bow
+dragon,Drabina,false
+dragon,Golum,true
+warrior,Argon,900,mace
+wizard,Neon,2,false,translocation
+dragon,Xenon,true

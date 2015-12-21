@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Champion(java.lang.String)
+comment0.text=\r\n\ Contructor\ for\ the\ champion\ class.\r\n\ @param\ name\ -\ The\ name\ of\ the\ champion\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ Returns\ the\ name\ of\ the\ champion\r\n
+comment2.params=
+comment2.target=int\ getSkillLevel()
+comment2.text=\r\n\ Returns\ the\ skill\ level\ of\ the\ champion\r\n
+comment3.params=
+comment3.target=int\ getHireFee()
+comment3.text=\r\n\ Returns\ the\ hire\ fee\ of\ the\ champion\r\n
+comment4.params=
+comment4.target=java.lang.String\ getState()
+comment4.text=\r\n\ Returns\ the\ state\ of\ the\ champion\r\n
+comment5.params=type
+comment5.target=boolean\ canCompete(java.lang.String)
+comment5.text=\r\n\ Returns\ true\ or\ false\ if\ the\ champion\ can\ compete\ in\ a\ challege\ by\ using\ the\ challenge\ types\ \r\n\ @param\ type\ -\ The\ type\ of\ challenge\ to\ check\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Returns\ all\ information\ about\ the\ Champion\ class\r\n
+numComments=7

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=name\ talk
+comment0.target=Dragon(java.lang.String,\ boolean)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Dragon\r\n\ @param\ name\ -\ The\ name\ of\ the\ Dragon\r\n\ @param\ talk\ -\ True\ or\ false\ if\ the\ Dragon\ talks\ or\ not\ \r\n
+comment1.params=
+comment1.target=boolean\ dragonCanTalk()
+comment1.text=\r\n\ Returns\ true\ or\ false\ if\ the\ Dragon\ speaks\ or\ not\r\n\ @return\ true\ or\ false\ if\ the\ Dragon\ speaks\ or\ not\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Returns\ all\ unique\ information\ about\ the\ Dragon\ class\r\n\ @return\ all\ unique\ information\ about\ the\ Dragon\ class\r\n
+numComments=3
